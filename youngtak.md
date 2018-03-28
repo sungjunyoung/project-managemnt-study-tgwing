@@ -1,3 +1,3 @@
 hello! I'm Young Tak
 ====================
-welcome to my github[(link)](https://github.com/pouder-Man)
+[welcome to my github](https://github.com/pouder-Man)
