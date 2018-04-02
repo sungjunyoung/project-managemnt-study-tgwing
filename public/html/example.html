@@ -1,3 +1,118 @@
 <html>
-<p>Hello World!!!</p>
+<head>
+    <!--materializecss-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <!--mobile optimize-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--css import-->
+    <link rel="stylesheet" href="/css/example.css">
+
+</head>
+<body>
+
+<h2>
+    티지윙 스터디
+</h2>
+<blockquote>
+    <ol>
+        <li>두명씩 짝을 지어 한개의 문제씩을 해결합니다.</li>
+        <li>서로 input/output 만 정하고 코드를 보지 않습니다.</li>
+        <li>예외처리를 철저히합니다.</li>
+    </ol>
+</blockquote>
+<hr/>
+
+<br/>
+<br/>
+<h5>1. 두 숫자를 더하기</h5>
+<h5>2. 결과에 1000 을 곱하고 화면에 출력하기</h5>
+<br/>
+<div class="row">
+    <div class="input-field col s4">
+        <input id="first_num_1" type="text">
+        <label class="active" for="first_num_1">첫번째 숫자</label>
+    </div>
+    <div class="input-field col s4">
+        <input id="second_num_1" type="text">
+        <label class="active" for="second_num_1">두번째 숫자</label>
+    </div>
+    <div class="col s2" style="text-align: center;">
+        <a class="btn-floating btn-large waves-effect waves-light primary get_result_1"><i class="material-icons">=</i></a>
+    </div>
+    <div class="input-field col s2">
+        <input id="result_1" type="text" placeholder="결과">
+    </div>
+</div>
+
+<br/>
+<br/>
+<h5>1. 첫번째 숫자의 팩토리얼과 두번째 숫자의 팩토리얼을 더하기</h5>
+<h5>2. 더한 숫자에 루트를 씌웟을 때의 결과를 소숫점 첫째자리에서 반올림하여 결과에 출력</h5>
+<br/>
+<div class="row">
+    <div class="input-field col s4">
+        <input id="first_num_2" type="text">
+        <label class="active" for="first_num_1">첫번째 숫자</label>
+    </div>
+    <div class="input-field col s4">
+        <input id="second_num_2" type="text">
+        <label class="active" for="second_num_1">두번째 숫자</label>
+    </div>
+    <div class="col s2" style="text-align: center;">
+        <a class="btn-floating btn-large waves-effect waves-light primary get_result_1"><i class="material-icons">=</i></a>
+    </div>
+    <div class="input-field col s2">
+        <input id="result_2" type="text" placeholder="결과">
+    </div>
+</div>
+
+<br/>
+<br/>
+<h5>1. 첫번째 숫자를 각 자리별로 0:a, 1:b, 2:c... 로 변환하기</h5>
+<h5>2. 두번째 숫자를 각 자리별로 0:ㄱ, 2:ㄴ, 3:ㄷ... 로 변환하기</h5>
+<h5>3. 두 문자열을 붙인 후 짝수 번째만 출력하기 ("abcㄱㄴㅇ" -> "acㄴ")</h5>
+<br/>
+<div class="row">
+    <div class="input-field col s4">
+        <input id="first_num_3" type="text">
+        <label class="active" for="first_num_1">첫번째 숫자</label>
+    </div>
+    <div class="input-field col s4">
+        <input id="second_num_3" type="text">
+        <label class="active" for="second_num_1">두번째 숫자</label>
+    </div>
+    <div class="col s2" style="text-align: center;">
+        <a class="btn-floating btn-large waves-effect waves-light primary get_result_1"><i class="material-icons">=</i></a>
+    </div>
+    <div class="input-field col s2">
+        <input id="result_3" type="text" placeholder="결과">
+    </div>
+</div>
+
+<br/>
+<br/>
+<h5>1. 첫번째 숫자를 각 자리별로 0:a, 1:b, 2:c... 로 변환하기</h5>
+<br/>
+<div class="row">
+    <div class="input-field col s4">
+        <input id="first_num_4" type="text">
+        <label class="active" for="first_num_1">첫번째 문자</label>
+    </div>
+    <div class="input-field col s4">
+        <input id="second_num_4" type="text">
+        <label class="active" for="second_num_1">두번째 문자</label>
+    </div>
+    <div class="col s2" style="text-align: center;">
+        <a class="btn-floating btn-large waves-effect waves-light primary get_result_1"><i class="material-icons">=</i></a>
+    </div>
+    <div class="input-field col s2">
+        <input id="result_4" type="text" placeholder="결과">
+    </div>
+</div>
+
+<!--materialize css-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="/js/example.js"></script>
+</body>
 </html>
