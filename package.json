@@ -1,0 +1,23 @@
+{
+  "name": "project-managemnt-study-tgwing",
+  "version": "1.0.0",
+  "description": "T.G.WinG 프로젝트 관리 스터디 저장소",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sungjunyoung/project-managemnt-study-tgwing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sungjunyoung/project-managemnt-study-tgwing/issues"
+  },
+  "homepage": "https://github.com/sungjunyoung/project-managemnt-study-tgwing#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
