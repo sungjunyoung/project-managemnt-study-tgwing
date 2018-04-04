@@ -25,7 +25,18 @@ $(document).ready(function () {
     });
 
     $('.get_result_3').click(function () {
-        console.log('question 3')
+        let first = $('#first_num_3').val() * 1;
+        let second = $('#second_num_3').val() * 1;
+
+        if (!first || !second) {
+            alert('숫자만 입력해 주세요!!');
+            $('#first_num_3').val('');
+            $('#second_num_3').val('');
+        }
+
+        let result = first + second;
+        console.log(result)
+        return 1;
     });
 
     $('.get_result_4').click(function () {
