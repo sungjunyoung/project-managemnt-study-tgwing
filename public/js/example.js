@@ -25,30 +25,32 @@ $(document).ready(function () {
     });
 
     $('.get_result_3').click(function () {
-        let first = $('#first_num_3').val() * 1;
-        let second = $('#second_num_3').val() * 1;
-
-        if (!first || !second) {
-            alert('숫자만 입력해 주세요!!');
-            $('#first_num_3').val('');
-            $('#second_num_3').val('');
+        let alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
+        let hangeul = ['ㄱ', 'ㄴ', 'ㄷ', 'ㄹ', 'ㅁ', 'ㅂ', 'ㅅ', 'ㅇ', 'ㅈ', 'ㅊ'];
+        let first = $('#first_num_3').val();
+        let second = $('#second_num_3').val();
+        let first_str = "";     // Converted [ int -> alphabet ]
+        let second_str = "";    // Converted [ int -> hangeul ]
+        for (let i = 0; i < first.length; i++) {
+            first_str += alphabet[Number(first[i])];
         }
-
-        let result = first + second;
-        console.log(result)
+        for (let i = 0; i < second.length; i++) {
+            second_str += hangeul[Number(second[i])];
+        }
+        let temp = first_str + second_str;
+        // console.log(result);
+        let result = "";
+        for (let i = 0; i < temp.length; i++) {
+            if ((i+1) % 2 == 0) {
+                result += temp.charAt(i);
+            }
+        }
+        // console.log(result);
+        $('#result_3').val(result);
         return 1;
     });
 
     $('.get_result_4').click(function () {
-        let second = $('#second_num_4').val() * 1;
-        let first_result = 1;
-        let second_result = 1;
-         
-        for(let i = 2; i <= second ; i++){
-            second_result *= i;
-        }
-
-        let result = first_result + second_result;
         console.log('question 4')
     });
 
