@@ -1,5 +1,3 @@
-
-const fs = require('fs');
 $(document).ready(function () {
 
     // $('.get_result_1').click(function () {
