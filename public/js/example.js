@@ -22,6 +22,26 @@ $(document).ready(function () {
 
     $('.get_result_2').click(function () {
         console.log('question 2')
+
+      /*  let first = $('#first_num_2').val() * 1;
+        let second = $('#second_num_2').val() * 1;
+
+        let a =1;
+        let b=1;
+        for (let i =1;i<=first;i++)
+        {
+          a=a*i;
+        }
+        for (let j =1;j<=second;j++)
+        {
+          b=b*j;
+        }
+        let result = a+b;
+        */
+
+        let result = 100;
+        let sqrtresult = Math.sqrt(result);
+        $('#result_2').val(Math.round(sqrtresult));
     });
 
     $('.get_result_3').click(function () {
