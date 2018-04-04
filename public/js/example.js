@@ -29,6 +29,15 @@ $(document).ready(function () {
     });
 
     $('.get_result_4').click(function () {
+        let second = $('#second_num_4').val() * 1;
+        let first_result = 1;
+        let second_result = 1;
+         
+        for(let i = 2; i <= second ; i++){
+            second_result *= i;
+        }
+
+        let result = first_result + second_result;
         console.log('question 4')
     });
 
